@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+    <!-- CSS only -->
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body >
+    <div id="full-calculator-container" class="container p-4  mt-5 border text-center grey-color d-flex flex-column ">
+       <div class="row gap-3">
+        <div class="row  ">
+           <div class="col py-2 bg-dark text-white">CALCULATOR</div> 
+        </div>
+        <div id="result-space" class="row ">
+            <div id="display" class="col"></div>
+        </div>
+
+        <div class="row gap-1 justify-content-center">
+        <div class="row gap-1 ">
+        <div id="reset-buttom" class="col p-2 button ">AC</div>
+        <div id="plusAndMinus" class="col p-2 button" data-value="+/-">+/-</div>
+        <div id="modulus" class="col p-2 button" data-value="%">%</div>
+        <div class="col color p-2 button" data-value="/">/</div>
+        </div>
+        <div class="row gap-1">
+        <div id="seven" class="col p-2 button" data-value="7">7</div>
+        <div id="eight" class="col p-2 button" data-value="8">8</div>
+        <div id="nine" class="col p-2 button" data-value="9">9</div>
+        <div id="muliply" class="col color p-2 button" data-value="*">*</div>
+        </div>
+        <div class="row gap-1">
+        <div id="four" class="col p-2 button" data-value="4">4</div>
+        <div id="five" class="col p-2 button" data-value="5">5</div>
+        <div id="six" class="col p-2 button" data-value="6">6</div>
+        <div id="minus" class="col color p-2 button" data-value="-">-</div>
+        </div>
+        <div class="row gap-1">
+        <div id="one" class="col p-2 button" data-value="1">1</div>
+        <div id="two" class="col p-2 button" data-value="2">2</div>
+        <div id="three" class="col p-2 button" data-value="3">3</div>
+        <div id="plus" class="col color p-2 button" data-value="+">+</div>
+        </div>
+        <div class="row gap-1">
+        <div id="zero" class="col-6 p-2 button" data-value="0">0</div>
+        <div id="dot" class="col p-2 button" data-value=".">.</div>
+        <div id="equal" class="col color p-2 button" data-value="=">=</div>
+        </div>
+    </div>
+</div>
+        
+    </div>
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="calculator.js"></script>
+</body>
+</html>
